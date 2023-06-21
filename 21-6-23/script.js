@@ -4,7 +4,7 @@ console.log("A" + "l" + "e" + "x" + "a" + "n" + "d" + "r" + " a");
 console.log("Hallo");
 
 // Error! Make it work
-console.log("That doesn't work");
+console.log("That doesn \'t work");
 
 // should return true. Change only the operator to fix it.
 console.log(50 + 2 >= 52);
