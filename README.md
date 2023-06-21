@@ -1,1 +1,1 @@
-# javascript-tasks
+This is a repository for several javascript tasks.
