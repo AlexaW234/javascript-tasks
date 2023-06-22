@@ -1,4 +1,4 @@
-console.log("A" + "l" + "e" + "x" + "a" + "n" + "d" + "r" + " a");
+console.log("A" + "l" + "e" + "x" + "a" + "n" + "d" + "r" + "a");
 
 // Error! Make it work
 console.log("Hallo");
