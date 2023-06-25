@@ -1,22 +1,63 @@
-console.log("A" + "l" + "e" + "x" + "a" + "n" + "d" + "r" + "a");
+//TASK 1
 
-// Error! Make it work
-console.log("Hallo");
+// TODO: implement welcomeMsg function
 
-// Error! Make it work
-console.log("That doesn \'t work");
+function welcomeMsg(name) {
+  return "Welcome " + name + "!";
 
-// should return true. Change only the operator to fix it.
-console.log(50 + 2 >= 52);
+}
 
-// should be false. Change only the operator to fix it.
-console.log("333" === 333);
+console.log(welcomeMsg("Jane"));
+// Welcome Jane!
 
-// Wrong result: Expected 555 not 855. Change only the operator to fix it.
-console.log((600 + 510) / 2);
+console.log(welcomeMsg("Marc"));
+// Welcome Marc!
 
-// Wrong result: Expected a Number 4 received 22
-console.log(2 + 2);
 
-//Create a console.log that returns true when both division results are equal to 5
-console.log(25 / 5 && 50 / 10 === 5);
+
+//TASK 2
+
+// TODO: implement calcGrossPrice function
+
+
+function calcGrossPrice(netPrice, taxRate) {
+  
+  let taxAmount = netPrice * taxRate;
+  
+  let grossPrice = netPrice + taxAmount;
+  
+  return grossPrice;
+}
+
+console.log(calcGrossPrice(20, 0.19));
+// Output: 23.8
+
+
+console.log(calcGrossPrice(40, 0.16));
+// result should be 46.4
+
+
+
+
+//TASK 3
+
+
+// TODO: Implement the addPositive function
+
+function addPositive(num1,num2)
+
+ let num1 = Math.abs(num1);
+ 
+ let num2 = Math.abs(num2);
+
+ return num1 + num2 
+
+
+console.log(addPositive(2, 3));
+// result1 should be 5
+
+console.log(addPositive(3, -5));
+// result2 should be 8
+
+console.log(addPositive(-1, -8));
+// result2 should be 9
