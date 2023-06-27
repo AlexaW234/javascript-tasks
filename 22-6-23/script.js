@@ -76,7 +76,7 @@ console.log(oldYoung(86));
 // Solution
 
 function oldYoung(years) {
-  if (typeof years !== "number" || age < 0) {
+  if (typeof years !== "number" || years < 0) {
     return "invalid parameter";
   }
 
